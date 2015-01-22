@@ -847,7 +847,7 @@ abbr[title]:hover {
  * GENERAL
  */
 img {
-  max-width: 100; }
+  max-width: 100%; }
 
 body {
   -webkit-transition: opacity .25s ease;
@@ -865,6 +865,20 @@ body {
   min-height: 100%;
   background-color: grey; }
 
+.left {
+  position: absolute;
+  float: left;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 25%;
+  background-color: grey;
+  min-width: 250px;
+  font-size: 15px; }
+  .left .name {
+    font-size: 15px; }
+  .left h3 {
+    font-size: 15px; }
+
 .user {
   position: absolute;
   float: left;
@@ -877,5 +891,8 @@ body {
   .user .pic {
     top: 10%;
     position: relative;
-    max-width: 100%; }
+    max-width: 50px; }
+
+.right {
+  font-size: 30px; }
 
