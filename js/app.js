@@ -29,9 +29,9 @@ function app() {
         var left = document.querySelector(".user")
         var right = document.querySelector(".repos")
 
-        var template_url = "/templates/templates.html";
+        var template_url = "./templates/templates.html";
 
-        var right_template_url = "/templates/right_template.html";
+        var right_template_url = "./templates/right_template.html";
             
         var template = $.get(template_url);
         var right_template = $.get(right_template_url);   
