@@ -29,7 +29,7 @@ function app() {
         var left = document.querySelector(".user")
         var right = document.querySelector(".repos")
 
-        var template_url = "./templates/left_template.html";
+        var template_url = "./templates/left_Template.html";
 
         var right_template_url = "./templates/right_template.html";
             
